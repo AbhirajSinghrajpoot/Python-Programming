@@ -23,4 +23,4 @@ Each day has its own dedicated folder containing the project files and scripts f
 To run any of the daily projects on your local machine:
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/AbhirajSinghrajpoot/Python-Programming.git](https://github.com/AbhirajSinghrajpoot/Python-Programming.git)
+   git clone [https://github.com/AbhirajSinghrajpoot/Python-Programming.git]
