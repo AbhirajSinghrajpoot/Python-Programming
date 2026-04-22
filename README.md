@@ -7,7 +7,7 @@
 
 Welcome to my Python Programming repository! This space documents my day-by-day journey of mastering Python by committing to the **#100DaysOfCode** challenge. 
 
-I am strictly following the highly acclaimed *"100 Days of Code: The Complete Python Pro Bootcamp"* by Dr. Angela Yu. My goal is to code daily, build 100 real-world projects, and level up my programming logic from beginner scripting to advanced full-stack web development.
+I am strictly following the highly acclaimed *"100 Days of Code. My goal is to code daily, build 100 real-world projects, and level up my programming logic from beginner scripting to advanced full-stack web development.
 
 ---
 
