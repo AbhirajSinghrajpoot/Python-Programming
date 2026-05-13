@@ -22,5 +22,5 @@ data = [
         'follower_count': 181,
         'description': 'Actor and professional wrestler',
         'country': 'United States'
-    },
+    }
 ]
