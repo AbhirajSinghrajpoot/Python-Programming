@@ -11,6 +11,7 @@ all_turtles = []
 
 for turtle_index in range(0, 6):
     new_turtle = Turtle(shape="turtle")
+    # new_turtle.speed("fastest")
     new_turtle.color(colors[turtle_index])
     new_turtle.penup()
     new_turtle.goto(x=-230, y=y_positions[turtle_index])
@@ -29,7 +30,7 @@ while is_race_on:
             else:
                 print(f"You've lost! The {winning_color} turtle is the winner!")
                 
-        random_distance = random.randint(0, 10)
+        random_distance = random.randint(5, 20)
         turtle.forward(random_distance)
         
 screen.exitonclick()
