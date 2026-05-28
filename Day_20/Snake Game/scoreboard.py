@@ -1,4 +1,6 @@
 from turtle import Turtle
+from pathlib import Path
+
 ALIGNMENT = "center"
 FONT = ("Courier", 24, "normal")
 
@@ -7,7 +9,9 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        self.high_score = 0
+        self.data_path = Path(__file__).with_name("data.txt")
+        with open(self.data_path) as data:
+            self.high_score = int(data.read())
         self.color("white")
         self.penup()
         self.goto(0, 265)
@@ -21,6 +25,8 @@ class Scoreboard(Turtle):
     def reset(self):
         if self.score > self.high_score:
             self.high_score = self.score
+            with open(self.data_path, mode = "w") as data:
+                data.write(f"{self.high_score}")
         self.score = 0
         self.clear()
         self.update_scoreboard()
