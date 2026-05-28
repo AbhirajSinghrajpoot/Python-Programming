@@ -1,0 +1,4 @@
+Hello, my name is Wizard
+This is a new line added to the file.
+This is a new line added to the file.
+This is a new line added to the file.
