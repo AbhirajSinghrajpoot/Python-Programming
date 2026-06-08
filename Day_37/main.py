@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-USERNAME = os.getenv("USERNAME")
+USERNAME = "wizard777"
 TOKEN = os.getenv("PIXELA_TOKEN")
 GRAPH_ID = "graph1"
 
