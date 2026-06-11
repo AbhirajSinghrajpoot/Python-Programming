@@ -30,13 +30,12 @@ sign_in_button = driver.find_element(
 sign_in_button.click()
 
 time.sleep(5)
-sign_in_popup_button = driver.find_element(
+email_field = driver.find_element(
     By.XPATH,
-    '//*[@id="base-contextual-sign-in-modal"]/div/section/div/div/div[2]/button/span'
+    '//*[@id="base-contextual-sign-in-modal"]/div/section/div/div/div[2]/button[1]'
 )
 
-sign_in_popup_button.click()
-
+email_field.click()
 email_field = driver.find_element(By.ID, "username")
 email_field.send_keys(EMAIL)
 password_field = driver.find_element(By.ID, "password")
